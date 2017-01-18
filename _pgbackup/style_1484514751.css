@@ -1,0 +1,91 @@
+
+
+/*!
+	*Nav Menu Styles
+*/
+
+.navbar
+{
+    background-color: transparent;
+}
+
+.dropdown-menu
+{
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+    color: red;
+}
+
+.dropdown-menu > li > a
+{
+    color: yellowgreen;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: grey;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus
+{
+    color: yellowgreen;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-brand
+{
+    color: black;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus
+{
+    color: #5e5e5e;
+    background-color: transparent;
+}
+
+/*!
+	*Brand Header Container
+*/
+
+.rowheightheader
+{
+    height: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/*!
+	*Content
+*/
+
+.container
+{
+    width: 100%;
+}
+
+/*!
+	*Footer
+*/
+
+.panel-footer
+{
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
